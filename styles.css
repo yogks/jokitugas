@@ -1,0 +1,148 @@
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #6a11cb;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-content {
+    padding: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #2575fc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #1b5cc8;
+}
+
+/* Pricing Table */
+.pricing {
+    padding: 50px 10%;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.pricing table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.pricing table th {
+    background: #6a11cb;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.pricing table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.pricing table tbody tr:hover {
+    background: #f3f3ff;
+    transition: 0.3s;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #6a11cb;
+    color: white;
+    margin-top: 30px;
+}
+.services {
+    padding: 50px 10%;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service h3 {
+    color: #6a11cb;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #1C9E54;
+}
